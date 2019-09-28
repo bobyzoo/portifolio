@@ -1,67 +1,182 @@
  @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
  @import url('https://fonts.googleapis.com/css?family=Boogaloo|Quicksand&display=swap');
  @import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
  .imagem {
     max-width:200px;
     max-height:150px;
     width: auto;
     height: auto;
 }
-h1{
-
-    font-family: "Tahoma";
-    font-size: 50pt;
-
-}
-
-*
-{
-    word-break: break-word;
-}
-
 #interface{
     /*background-color: #606060;*/
     background-image: url("../../img/background1.gif");
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 315%;
     background-color: #606060;
     height: 100%;
 
 }
+h1{
+    font-family: "Tahoma";
+    color: #fff;
+}
+h2{
+
+    font-family: Raleway;
+    color: #d0d0d0;
+    border-bottom: 5px solid #d0d0d0 !important;
+    margin-bottom: 20px;
+}
+.imagem-pc{
+    font-size: 20px;
+    margin-top: 15%;
+    color: #606060
+}
+/*COL*/
+@media only screen and(max-width: 575px) {
+    h1{
+        font-size: 50px;
+    }
+}
+ /*SM*/
+ @media only screen and (min-width: 576px) {
+    h1{
+        font-size: 50px;
+    }
+     .imagem-pc{
+         font-size: 30px;
+     }
+     #interface{
+         background-size: 450%;
+     }
+     h2{
+         font-size: 50px ;
+     }
+     #sobre-text{
+         font-size: 20px;
+         text-indent: 1em;
+
+     }
+}
+/* MD*/
+@media only screen and (min-width: 768px) {
+    h1{
+        font-size: 40px;
+    }
+    .imagem-pc{
+        font-size: 40px;
+    }
+    #interface{
+        background-size: 340%;
+    }
+    h2{
+        font-size: 40px ;
+    }
+    #sobre-text{
+        font-size: 20px;
+        text-indent: 1em;
+
+    }
+}
+ /*LG*/
+ @media only screen and (min-width: 992px) {
+    h1{
+        font-size: 60px;
+    }
+     .imagem-pc{
+         font-size: 60px;
+     }
+     #interface{
+         background-size: 250%;
+     }
+     h2{
+         font-size: 40px ;
+     }
+     #sobre-text{
+         font-size: 25px;
+         text-indent: 1em;
+
+     }
+}
+ /*XL*/
+ @media only screen and (min-width: 1200px) {
+    h1{
+        font-size: 80px;
+    }
+     h2{
+         font-size: 50px ;
+     }
+     .imagem-pc{
+        font-size: 80px;
+
+    }
+     #interface{
+         background-size: 150%;
+     }
+     #sobre-text{
+         font-size: 30px;
+         text-indent: 1em;
+
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+ @media only screen and (min-width: 1440px) {
+
+     #interface{
+         background-size: 110%;
+     }
+ }
+
+
+@media screen and (max-width: 400px){
+    .width-v{
+        width: 105%;
+    }
+}
+* {
+    word-break: break-word;
+}
+
 .icones {
     transform: rotate(90deg);
     background-color: white;
     border-radius: 50%;
-
     padding: 10px;
 
 }
 .segunda-tela{
     background-color: #606060;
-    /*margin-top: -15px;*/
-    height: 100%;
+    height: 150%;
+    color: white;
 }
 
 .imagem-v{
     position: absolute;
     left: 0;
     bottom: 0;
+    padding: 0px;
 }
 
  .width-v{
-     width: 101%;
+     padding: 0px;
  }
-@media screen and (max-width: 400px){
-    .width-v{
-        width: 105%;
-    }
-}
-.segunda-tela{
-    color: white;
-}
 
+
+.title-init{
+    color: #606060;
+}
 .segunda-tela h1{
-    padding-bottom: 5px;
     margin-bottom: 15px;
-
+    border-bottom: 5px solid #ffffff !important;
 }

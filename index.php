@@ -13,38 +13,55 @@
 </head>
 
 
-
 <body>
 <div class="container-fluid" id="interface">
     <div class="row">
-        <div style="font-size: 100px; margin-top: 15%; color: #606060" class="text-center col-md-12"><i
+        <div class="text-center col-md-12 imagem-pc"><i
                     class="fas fa-laptop "></i></div>
     </div>
     <div class="row">
         <div class="col-md-12 text-center home-contatent">
-            <h1> Hi,I'm Gabriel Vargas.</h1>
+            <h1 class="title-init"> Hi,I'm Gabriel Vargas.</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 text-center home-contatent" style="margin-bottom: 10px; margin-top: -20px"><p>
-            <h1> I'm a programmer</h1></p></div>
+        <div class="col-md-12 text-center home-contatent" style="margin-bottom: 10px; margin-top: -20px">
+            <p>
+            <h1 class="title-init"> I'm a programmer</h1></p>
+        </div>
     </div>
+    <div class="row"><img class="col-md-12 imagem-v" src="img/imagem-v.png"></div>
 </div>
 
-<!--        <svg class="imagem-v width-v" preserveAspectRatio="none" viewBox="0 0 100 102" height="75"  style="left:-19px; bottom: -2px;">-->
-<!--            <path d="M0 0 L50 95 L100 0 L100 100 L0 100 Z" fill="#606060" stroke="#606060"></path>-->
-<!--        </svg>-->
-<!--SEGUNDA TELA-->
-<div class="col-md-12  segunda-tela" >
+<!--
+*
+*
+*
+*
+*
+--->
+
+<!--Second screen-->
+<div class="col-md-12  segunda-tela">
     <div class="container">
+        <div class="col-md-12" style="padding-bottom: 75px "></div>
+        <div class="col-md-12"><h1
+                    class="text-center col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-5 offset-sm-3 col-6 offset-3">
+                About</h1></div>
 
-        <div class="col-md-12" style="padding-bottom: 75px"></div>
-        <div class="col-md-12 text-center "><h1>About</h1></div>
-        <div>
-
-        </div>
-        <!--    <div class="grid grid-3-4 col-gap-2 grid-middle"> <img src="img/prog.png"></div>-->
     </div>
+    <div style="margin-top: 200px"><img src="img/foto.png"
+                                        class="offset-4 col-xl-2 col-lg-3 col-md-4 offset-md-1  col-sm-4 col-4 offset-sm-4">
+    </div>
+    <div style="margin-top: 50px"><h2
+                class="font-weight-bold text-center offset-xl-1 col-xl-4 offset-lg-1 col-lg-3 offset-md-1 col-md-4 offset-sm-0 col-sm-12">
+            Who I am?</h2></div>
+
+    <div id="sobre-text" class="text-justify col-xl-6 col-lg-6 col-md-6"><p>Full-Stack Developer, I seek to be updated on technologies and systems
+            development practices. </p>
+        <p>Graduated in Technician in Electronics, pursuing a degree in Computer Science and Digital Games.
+        </p></div>
+
 </div>
 
 </body>
