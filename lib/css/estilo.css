@@ -213,6 +213,7 @@ p {
 .conteudo {
     background-color: #606060;
     color: white;
+    padding-bottom: 150px;
 }
 
 .imagem-v {
@@ -227,6 +228,7 @@ p {
 }
 
 
+
 .title-init {
     color: #606060;
 }
@@ -236,8 +238,49 @@ p {
     border-bottom: 5px solid #ffffff !important;
 }
 .project{
-    margin-top: 50px;
+    background-color: #4e4e4e;
+    margin-top: -1px;
+    height: 200%;
 }
 .outras-habilidedes{
     padding-left: 45px;
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+.gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+.gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+
+@media (max-width: 450px) {
+    .gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+        padding-left: 1.1rem;
+        padding-right: 1.1rem;
+    }
+}
+
+#footer{
+    background-color: #3c3c3c;
+    height: 25%;
+    margin-top: -1px;
 }
