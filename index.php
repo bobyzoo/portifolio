@@ -391,46 +391,39 @@
         <div class="gallery" id="gallery">
 
             <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-                     alt="Card image cap">
+            <div class="mb-3 pics  all 2">
+                <figure class="figure">
+                    <a><img class="img-fluid figure-img rounded " src="img/geld.PNG" id="img-1" alt="Card image cap"></a>
+                <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                </figure>
             </div>
             <!-- Grid column -->
+            <div class="mb-3 pics  all 1">
+            <figure class="figure">
+               <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
+                <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+            </figure>
+            </div>
 
             <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg"
-                     alt="Card image cap">
+            <div class="mb-3 pics  all 1">
+                <figure class="figure">
+                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
+                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                </figure>
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
-                     alt="Card image cap">
+            <div class="mb-3 pics  all 1">
+                <figure class="figure">
+                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
+                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                </figure>
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
-                     alt="Card image cap">
+            <div class="mb-3 pics  all 1">
+                <figure class="figure">
+                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
+                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                </figure>
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 2">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-                     alt="Card image cap">
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="mb-3 pics animation all 1">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
-                     alt="Card image cap">
-            </div>
-            <!-- Grid column -->
 
         </div>
         <!-- Grid row -->
@@ -446,6 +439,11 @@
         mobile: false,
         offset: 500
     }).init();
+
+$(".img").mouseenter(function () {
+    this.css({'opacity': '0.5'});
+});
+
 
 
     $(function () {
