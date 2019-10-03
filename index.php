@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="lib/font-awesome/css/fontawesome.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
           integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="lib/css/animate.css">
     <meta name="viewport" content="width=device-width">
 </head>
@@ -365,10 +366,13 @@
 
 <!--    TELA DE PROJETOS-->
 <div class="project">
+
+
     <div class="container-fluid" style="padding-top: 150px">
 
         <div data-wow-offset="100" class="wow fadeInLeft text-center offset-3 col-6 col-lg-4 offset-lg-4"><h2 >Projects</h2></div>
         <div class="row"  style="margin-top: 150px">
+
 
             <!-- Grid column -->
             <div class="col-md-12 d-flex justify-content-center mb-5">
@@ -390,12 +394,26 @@
         <!-- Grid row -->
         <div class="gallery" id="gallery">
 
-            <!-- Grid column -->
             <div class="mb-3 pics  all 2">
                 <figure class="figure">
-                    <a><img class="img-fluid figure-img rounded " src="img/geld.PNG" id="img-1" alt="Card image cap"></a>
-                <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                    <a  role="button" data-toggle="collapse" href="#colapsoGeld" aria-expanded="true" aria-controls="collapseExample"><img class="img-fluid figure-img rounded " src="img/geld.PNG" id="img-1" alt="Card image cap"></a>
                 </figure>
+            </div>
+            <div class="collapse in colapso mb-3 pics  all 1" id="colapsoGeld" aria-expanded="true" style="">
+                <div class="text-justify">
+                    <div style="padding-bottom: 5px">
+                        <h5>Resumo: </h5> Um site para uso de administração interna da empresa. Gestão dos funcionarios, Classificação de grãos, auditorias de cargas e conotrole da análise de qualidade de grãos<br>
+                    </div>
+                    <div style="border-top: 1px solid #333131; padding-top: 5px">
+                        Nome do Projeto: Geld<br>
+                        Empresa: GenesisGroup<br>
+                        Linguagens: PHP, CSS, HTML, JavaScript<br>
+                        Bibliotecas: JQuery, BootStrap, DataTables<br>
+                        Outras Técnologias: AJAX, JSON<br>
+                        Minha Participação: 03/2019 - Atualmente
+                    </div>
+
+                </div>
             </div>
             <!-- Grid column -->
             <div class="mb-3 pics  all 1">
@@ -403,6 +421,11 @@
                <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
                 <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
             </figure>
+            </div>
+            <div class="collapse in colapso mb-3 pics  all 1" id="collapseExample" aria-expanded="true" style="">
+                <div >
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
             </div>
 
             <!-- Grid column -->
@@ -412,17 +435,32 @@
                     <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
                 </figure>
             </div>
-            <div class="mb-3 pics  all 1">
-                <figure class="figure">
-                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
-                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-                </figure>
+            <div class="collapse in colapso mb-3 pics  all 1" id="collapseExample" aria-expanded="true" style="">
+                <div >
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
             </div>
             <div class="mb-3 pics  all 1">
                 <figure class="figure">
                     <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
                     <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
                 </figure>
+            </div>
+            <div class="collapse in colapso mb-3 pics  all 1" id="collapseExample" aria-expanded="true" style="">
+                <div >
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+            </div>
+            <div class="mb-3 pics  all 1">
+                <figure class="figure">
+                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
+                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                </figure>
+            </div>
+            <div class="collapse in colapso mb-3 pics  all 1" id="collapseExample" aria-expanded="true" style="">
+                <div >
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
             </div>
 
         </div>
@@ -434,6 +472,9 @@
 </footer>
 <script src="lib/js/jquery-3.4.1.min.js"></script>
 <script src="lib/js/wow.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script>
     new WOW({
         mobile: false,
