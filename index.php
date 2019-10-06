@@ -367,63 +367,46 @@
 <div class="project">
     <div class="container-fluid" style="padding-top: 150px">
 
-        <div data-wow-offset="100" class="wow fadeInLeft text-center offset-3 col-6 col-lg-4 offset-lg-4"><h2 >Projects</h2></div>
-        <div class="row"  style="margin-top: 150px">
+        <div data-wow-offset="100" class="wow fadeInLeft text-center offset-3 col-6 col-lg-4 offset-lg-4"><h2>
+                Projects</h2></div>
 
-            <!-- Grid column -->
-            <div class="col-md-12 d-flex justify-content-center mb-5">
-
-                <button type="button"  class="col-1 btn btn-light btn-outline-dark waves-effect filter" data-rel="all" style="margin-right: 20px;padding: 10px;">All
-                </button>
-                <button type="button" class="btn btn-light btn-outline-dark waves-effect filter" style="padding: 10px;" data-rel="1">
-                    own project
-                </button>
-                <button type="button" class=" btn btn-light btn-outline-dark waves-effect filter" data-rel="2" style="margin-left: 20px;padding: 10px;">business project
-                </button>
-
-            </div>
-            <!-- Grid column -->
-
-        </div>
-        <!-- Grid row -->
-
-        <!-- Grid row -->
         <div class="gallery" id="gallery">
+            <!-- Grid column -->
 
-            <!-- Grid column -->
-            <div class="mb-3 pics  all 2">
-                <figure class="figure">
-                    <a><img class="img-fluid figure-img rounded " src="img/geld.PNG" id="img-1" alt="Card image cap"></a>
-                <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-                </figure>
+            <!-- Botão para acionar modal -->
+            <div type="button" data-toggle="modal" data-target="#modalExemplo">
+                <img class="img-fluid figure-img rounded" src="img/geld.PNG" id="img-1"
+                     alt="Card image cap">
             </div>
-            <!-- Grid column -->
-            <div class="mb-3 pics  all 1">
-            <figure class="figure">
-               <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
-                <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-            </figure>
+            <!-- Modal -->
+            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Geld</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div>
+                                Empresa: GenesisGroup<br>
+                                Linguagens: PHP, CSS, HTML, JavaScript<br>
+                                Bibliotecas: JQuery, BootStrap, DataTables<br>
+                                Outras Técnologias: AJAX, JSON<br>
+                                Minha Participação: 03/2019 - Atualmente
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+                                </button>
+                                <button type="button" class="btn btn-primary"><a target="_blank" style="color: white; text-decoration: none" href="http://app.geneslab.com.br/login.php">Web Site</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <!-- Grid column -->
-            <div class="mb-3 pics  all 1">
-                <figure class="figure">
-                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
-                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-                </figure>
-            </div>
-            <div class="mb-3 pics  all 1">
-                <figure class="figure">
-                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
-                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-                </figure>
-            </div>
-            <div class="mb-3 pics  all 1">
-                <figure class="figure">
-                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
-                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-                </figure>
-            </div>
 
         </div>
         <!-- Grid row -->
@@ -432,6 +415,16 @@
 <footer id="footer">
     <h1 style="color: white" class="col-12"></i></h1>
 </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 <script src="lib/js/jquery-3.4.1.min.js"></script>
 <script src="lib/js/wow.min.js"></script>
 <script>
@@ -439,11 +432,6 @@
         mobile: false,
         offset: 500
     }).init();
-
-$(".img").mouseenter(function () {
-    this.css({'opacity': '0.5'});
-});
-
 
 
     $(function () {
