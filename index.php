@@ -40,15 +40,14 @@
 *
 --->
 
-<!--SEGUNDA TELA-->
+<!--second screen-->
 <div class="col-md-12 conteudo" style="margin-top: -1px">
     <div class="container">
         <div class="col-md-12" style="padding-bottom: 75px "></div>
         <div class="col-md-12"><h1
                     data-wow-offset='100'
-                    class="wow fadeInLeftBig text-center font-weight-bold col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-6 offset-sm-3 col-8 offset-2">
-                About me</h1></div>
-    </div>
+                    class="wow fadeInLeftBig text-center font-weight-bold col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-12">
+                About me</h1></div></div>
 
 
     <!--  DIV CONTEUDO SOBRE E PRINCIPAIS HABILIDADES-->
@@ -60,14 +59,14 @@
             <div class="wow slideInLeft col-xl-5 col-lg-5 col-md-12">
                 <!--    My Picture -->
                 <div class="about"><img src="img/foto.png"
-                                        class="offset-4 offset-md-1 col-xl-10 col-lg-9 col-md-8 offset-md-2  col-sm-4 col-4 offset-sm-4 "
+                                        class=" offset-md-1 col-xl-10 col-lg-9 col-md-8 offset-md-2  col-sm-8 col-8 offset-2 offset-sm-2 "
                                         style="margin-bottom: 10px; ">
                 </div>
 
 
                 <!-- TITULO SOBRE-->
                 <h2 class="text-center offset-xl-2 col-xl-10 offset-lg-2 col-lg-8 offset-md-3 col-md-6 offset-sm-2 col-sm-8
-        offset-2 col-8" style="margin-bottom: 10px;">
+        offset-1 col-10" style="margin-bottom: 10px;">
                     Who am I ?</h2>
                 <!--  TEXTO SOBRE-->
                 <div id="sobre-text" class="text-justify offset-md-2 "><p>I'm a self-taught full-stack developer seeking
@@ -448,8 +447,6 @@
                     </div>
 
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
-                        </button>
                         <button type="button" class="btn btn-primary"><a target="_blank"
                                                                          style="color: white; text-decoration: none"
                                                                          href="http://app.geneslab.com.br/login.php">Web Site</a></button>
@@ -486,8 +483,6 @@
                     </div>
 
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
-                        </button>
                         <button type="button" class="btn btn-primary"><a target="_blank"
                                                                          style="color: white; text-decoration: none"
                                                                          href="https://github.com/bobyzoo/ProjetoX">Web Site</a></button>
@@ -514,8 +509,6 @@
                         Creation date: 2018
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
-                        </button>
                         <button type="button" class="btn btn-primary"><a target="_blank"
                                                                          style="color: white; text-decoration: none"
                                                                          href="https://github.com/bobyzoo/game">Web Site</a></button>
@@ -542,8 +535,6 @@
                         Creation date: 2019
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close
-                        </button>
                         <button type="button" class="btn btn-primary"><a target="_blank"
                                                                          style="color: white; text-decoration: none"
                                                                          href="https://github.com/bobyzoo/BattleOfTheSpirits">Web Site</a></button>
