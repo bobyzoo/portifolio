@@ -257,6 +257,9 @@ p {
 .outras-habilidedes{
     padding-left: 45px;
 }
+.imgs{
+    -webkit-appearance: none !important;
+}
 
 .gallery {
     -webkit-column-count: 3;
