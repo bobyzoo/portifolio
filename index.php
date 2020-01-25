@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
           integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="lib/css/animate.css">
+    <link rel="shortcut icon" href="img/icon.png" />
     <meta name="viewport" content="width=device-width">
 </head>
 <body>
@@ -18,7 +19,7 @@
     </div>
     <div class="row">
         <div class="col-md-12 text-center home-contatent">
-            <h1 class="title-init"> Hi,I'm Gabriel Vargas.</h1>
+            <h1 class="title-init"> Hi, I'm Gabriel Vargas.</h1>
         </div>
     </div>
     <div class="row">
@@ -29,6 +30,7 @@
     </div>
     <div class="row"><img class="col-md-12 imagem-v" src="img/imagem-v.png"></div>
 </div>
+
 
 <!--
 *
@@ -44,7 +46,7 @@
         <div class="col-md-12" style="padding-bottom: 75px "></div>
         <div class="col-md-12"><h1
                     data-wow-offset='100'
-                    class="wow fadeInLeftBig text-center font-weight-bold col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-6 offset-sm-3 col-6 offset-3">
+                    class="wow fadeInLeftBig text-center font-weight-bold col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-4 offset-md-4 col-sm-6 offset-sm-3 col-8 offset-2">
                 About</h1></div>
     </div>
 
@@ -59,20 +61,21 @@
                 <!--    My Picture -->
                 <div class="about"><img src="img/foto.png"
                                         class="offset-4 offset-md-1 col-xl-10 col-lg-9 col-md-8 offset-md-2  col-sm-4 col-4 offset-sm-4 "
-                                        style="margin-bottom: 10px">
+                                        style="margin-bottom: 10px; ">
                 </div>
 
 
                 <!-- TITULO SOBRE-->
-                <h2 class="text-center offset-xl-1 col-xl-10 offset-lg-2 col-lg-8 offset-md-3 col-md-6 offset-sm-2 col-sm-8
-        offset-2 col-8" style="margin-bottom: 10px">
+                <h2 class="text-center offset-xl-2 col-xl-10 offset-lg-2 col-lg-8 offset-md-3 col-md-6 offset-sm-2 col-sm-8
+        offset-2 col-8" style="margin-bottom: 10px;">
                     Who I am?</h2>
-
-
                 <!--  TEXTO SOBRE-->
-                <div id="sobre-text" style="display: inline-block" class="text-justify col-md-12"><p>Full-Stack
-                        Developer, I seek to be updated
-                        on technologies and systems development practices. </p>
+                <div id="sobre-text" class="text-center offset-md-2"><p>Full-Stack Developer, I seek to be updated on
+                        technology and systems development practices.
+                        Self-taught, creative, proactive, I solve problems well, code review, well coded and well
+                        commented.
+
+                    </p>
                     <p>Graduated in Technician in Electronics, pursuing a degree in Computer Science and Digital Games.
                     </p>
                 </div>
@@ -160,9 +163,8 @@
 
             <!--            OUTRAS HABILIDADES-->
             <div class="outras-habilidedes col-lg-5">
-                <div class="text-center wow fadeInLeft  col-xl-10 offset-xl-1 col-8 offset-2"><h2>Other Skills</h2>
+                <div class="text-center wow fadeInLeft  col-xl-10 offset-xl-1 col-10 offset-1"><h2>Other Skills</h2>
                 </div>
-
                 <div class="col-lg-12  wow fadeInUp ">
                     <div class='row'>
                         <div class='title-graphic'>C
@@ -364,21 +366,25 @@
 </div><!-- DIV CONTEUDO-->
 
 <!--    TELA DE PROJETOS-->
-<div class="project">
+<div class="project" style="padding-bottom: 20px">
     <div class="container-fluid" style="padding-top: 150px">
 
-        <div data-wow-offset="100" class="wow fadeInLeft text-center offset-3 col-6 col-lg-4 offset-lg-4"><h2 >Projects</h2></div>
-        <div class="row"  style="margin-top: 150px">
+        <div data-wow-offset="100" class="wow fadeInLeft text-center offset-2 col-8 col-lg-4 offset-lg-4"><h2>
+                Projects</h2></div>
+        <div class="row" style="margin-top: 150px">
 
             <!-- Grid column -->
             <div class="col-md-12 d-flex justify-content-center mb-5">
 
-                <button type="button"  class="col-1 btn btn-light btn-outline-dark waves-effect filter" data-rel="all" style="margin-right: 20px;padding: 10px;">All
+                <button type="button" class="btn btn-muda btn-light btn-outline-dark waves-effect filter" data-rel="all"
+                        style="margin-right: 20px;padding: 10px;">All
                 </button>
-                <button type="button" class="btn btn-light btn-outline-dark waves-effect filter" style="padding: 10px;" data-rel="1">
+                <button type="button" class="btn btn-light btn-outline-dark waves-effect filter" style="padding: 10px;"
+                        data-rel="1">
                     own project
                 </button>
-                <button type="button" class=" btn btn-light btn-outline-dark waves-effect filter" data-rel="2" style="margin-left: 20px;padding: 10px;">business project
+                <button type="button" class="btn btn-light btn-outline-dark waves-effect filter" data-rel="2"
+                        style="margin-left: 20px;padding: 10px;">business project
                 </button>
 
             </div>
@@ -389,61 +395,84 @@
 
         <!-- Grid row -->
         <div class="gallery" id="gallery">
-
             <!-- Grid column -->
             <div class="mb-3 pics  all 2">
                 <figure class="figure">
-                    <a><img class="img-fluid figure-img rounded " src="img/geld.PNG" id="img-1" alt="Card image cap"></a>
-                <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                    <a target="_blank" href="http://app.geneslab.com.br/login.php"><img class="img-fluid figure-img rounded " src="img/geld.PNG" id="img-1"
+                            alt="Card image cap"></a>
+                    <figcaption class="figure-caption text-right">Geld - PHP/MySQL/HTML5/CSS/JS</figcaption>
                 </figure>
             </div>
             <!-- Grid column -->
             <div class="mb-3 pics  all 1">
-            <figure class="figure">
-               <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
-                <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-            </figure>
+                <figure class="figure">
+                    <a target="_blank" href="https://github.com/bobyzoo/ProjetoX"> <img src="img/github.jpg" id="img-2"
+                                                                        class="figure-img img-fluid rounded"
+                                                                        alt="Card image cap"></a>
+                    <figcaption class="figure-caption text-right">Virtual Assistant - Python3/SQLite</figcaption>
+                </figure>
             </div>
 
             <!-- Grid column -->
             <div class="mb-3 pics  all 1">
                 <figure class="figure">
-                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
-                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                    <a target="_blank" href="https://github.com/bobyzoo/game"> <img src="img/gameC.jpg" id="img-2"
+                                                                    class="figure-img img-fluid rounded"
+                                                                    alt="Card image cap"></a>
+                    <figcaption class="figure-caption text-right">Sticker Figth Game - C++</figcaption>
                 </figure>
             </div>
             <div class="mb-3 pics  all 1">
                 <figure class="figure">
-                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
-                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
+                    <a target="_blank" href="https://github.com/bobyzoo/BattleOfTheSpirits"> <img src="img/gamePython.png" id="img-2"
+                                                                                  class="figure-img img-fluid rounded"
+                                                                                  alt="Card image cap"></a>
+                    <figcaption class="figure-caption text-right">Battle of the Spirits - Python3</figcaption>
                 </figure>
             </div>
-            <div class="mb-3 pics  all 1">
-                <figure class="figure">
-                    <a href="http://app.geneslab.com.br/login.php"> <img src="img/geld.PNG" id="img-2"  class="figure-img img-fluid rounded" alt="Card image cap"></a>
-                    <figcaption class="figure-caption text-right">A caption for the above image.</figcaption>
-                </figure>
-            </div>
-
         </div>
-        <!-- Grid row -->
     </div>
 </div>
-<footer id="footer">
-    <h1 style="color: white" class="col-12"></i></h1>
-</footer>
+    <footer id="footer" class="col-md-12 conteudo" style="margin-top: -8px">
+        <div class="container-fluid">
+            <div class="row" style="padding-top: 20px">
+                <div class="text-center col-md-12 footer-create" >
+                    Website created by &copy; Gabriel Vargas
+
+                </div>
+                <div class="text-center col-md-12">
+                    <a target="_blank" href="https://www.instagram.com/gabrieldsvr/" class="footer"><i
+                                class="fab fa-instagram footer" style="margin-right: 10px"></i></a>
+                    <a target="_blank" href="https://github.com/bobyzoo" class="footer"><i class="fab fa-github footer"
+                                                                                           style="margin-right: 10px"></i> </a>
+                    <a target="_blank" class="footer" href="https://www.linkedin.com/in/gabriel-dos-santos-vargas-3a1aa6119/"> <i
+                                class="fab fa-linkedin footer" style="margin-right: 10px"></i></a>
+                </div></div>
+        </div>
+    </footer>
+
+</body>
+
 <script src="lib/js/jquery-3.4.1.min.js"></script>
 <script src="lib/js/wow.min.js"></script>
 <script>
+    $('*').filter(function() {
+        return $(this).css('z-index') == 9999999;
+    }).each(function() {
+        $(this).remove();
+    });
+</script>
+<script>
+
+
     new WOW({
         mobile: false,
         offset: 500
     }).init();
 
-$(".img").mouseenter(function () {
-    this.css({'opacity': '0.5'});
-});
-
+    $(".img").mouseenter(function () {
+        this.css({'opacity': '0.5'});
+    });
 
 
     $(function () {
@@ -459,5 +488,4 @@ $(".img").mouseenter(function () {
         });
     });
 </script>
-</body>
 </html>
