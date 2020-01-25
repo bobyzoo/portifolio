@@ -378,6 +378,10 @@
                 <img class="img-fluid figure-img rounded" src="img/geld.PNG" id="img-1"
                      alt="Card image cap">
             </div>
+            <div type="button" data-toggle="modal" style="background-color: rgba(255,255,255,0)" data-target="#modalExemplo2">
+                <img class="img-fluid figure-img rounded" src="img/gameC.jpg" id="img-2"
+                     alt="Card image cap">
+            </div>
             <!-- Modal -->
             <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
                  aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -392,6 +396,33 @@
                         <div class="modal-body">
                             <div>
                                 Empresa: GenesisGroup<br>
+                                Linguagens: PHP, CSS, HTML, JavaScript<br>
+                                Bibliotecas: JQuery, BootStrap, DataTables<br>
+                                Outras Técnologias: AJAX, JSON<br>
+                                Minha Participação: 03/2019 - Atualmente
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar
+                                </button>
+                                <button type="button" class="btn btn-primary"><a target="_blank" style="color: white; text-decoration: none" href="http://app.geneslab.com.br/login.php">Web Site</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog"
+                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Geld</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div>
+                                Empresa: GenedasdasdsisGroup<br>
                                 Linguagens: PHP, CSS, HTML, JavaScript<br>
                                 Bibliotecas: JQuery, BootStrap, DataTables<br>
                                 Outras Técnologias: AJAX, JSON<br>
