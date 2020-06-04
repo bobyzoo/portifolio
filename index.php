@@ -1,20 +1,24 @@
-<html>
+<html lang="en-us">
 <head>
-    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
-    <script src="lib/bootstrap/js/bootstrap.js"></script>
-    <title>Gabriel Vargas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="lib/css/estilo.css">
-    <link rel="stylesheet" href="lib/font-awesome/css/fontawesome.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-          integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+              integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="lib/css/animate.css">
+
+
+    <title>Gabriel Vargas</title>
     <link rel="shortcut icon" href="img/icon.png"/>
     <meta name="viewport" content="width=device-width">
 </head>
 <body>
 <div class="container-fluid" id="interface">
-    <div class="row">
-        <div class="text-center col-md-12 imagem-pc"><i
+
+    <div class="row text-center">
+        <div class=" imagem-pc col-12"><i
                     class="fa fa-laptop"></i></div>
     </div>
     <div class="row">
@@ -22,59 +26,52 @@
             <h1 class="title-init"> Hi, I'm Gabriel Vargas.</h1>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12 text-center home-contatent" style="margin-bottom: 10px; margin-top: -20px">
-            <p>
+    <div class="container pt-3">
+        <div class="col-md-12 text-center" style="margin-bottom: 10px; margin-top: -20px">
             <h1 class="title-init"> I'm a programmer</h1>
         </div>
     </div>
-    <div class="row"><img class="col-md-12 imagem-v" src="img/imagem-v.png"></div>
+
+    <div>
+        <div class="row" style="margin-top: 15%">
+            <img class="col-md-12 imagem-v" src="img/imagem-v.png" alt=" ">
+        </div>
+    </div>
 </div>
 
-
-<!--
-*
-*
-*
-*
-*
---->
 
 <!--second screen-->
 <div class="col-md-12 conteudo" style="margin-top: -1px">
     <div class="container">
-        <div class="col-md-12" style="padding-bottom: 75px "></div>
-        <div class="col-md-12"><h1
-                    data-wow-offset='100'
-                    class="wow fadeInLeftBig text-center font-weight-bold col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-12">
-                About me</h1></div></div>
-
+        <div class="col-12" style="padding-bottom: 75px "></div>
+        <div class="container text-center">
+            <h1 data-wow-offset='100' class="wow fadeInLeftBig text-center d-inline-block px-4">About me</h1>
+        </div>
+    </div>
 
     <!--  DIV CONTEUDO SOBRE E PRINCIPAIS HABILIDADES-->
     <div class="container-fluid" style="margin-bottom: 100px">
         <div class="row ">
-
-
             <!-- DIV SOBRE-->
             <div class="wow slideInLeft col-xl-5 col-lg-5 col-md-12">
                 <!--    My Picture -->
-                <div class="about"><img src="img/foto.png"
-                                        class=" offset-md-1 col-xl-10 col-lg-9 col-md-8 offset-md-2  col-sm-8 col-8 offset-2 offset-sm-2 "
-                                        style="margin-bottom: 10px; ">
+                <div class="about container">
+                    <figure class="figure col-12">
+                        <img src="img/foto.png" class="img-fluid mx-auto d-block" style="margin-bottom: 10px; ">
+                    </figure>
                 </div>
 
-
-                <!-- TITULO SOBRE-->
-                <h2 class="text-center offset-xl-2 col-xl-10 offset-lg-2 col-lg-8 offset-md-3 col-md-6 offset-sm-2 col-sm-8
-        offset-1 col-10" style="margin-bottom: 10px;">
-                    Who am I ?</h2>
                 <!--  TEXTO SOBRE-->
-                <div id="sobre-text" class="text-justify offset-md-2 "><p>I'm a self-taught full-stack developer seeking
+                <div id="sobre-text" class="text-justify col-12 px-5">
+                    <h2 class="text-center container" style="margin-bottom: 10px;">
+                        Who am I ?</h2>
+                    <p>I'm a self-taught full-stack developer seeking
                         to growing up in tech and systems development.
                         Creative, proactive, I solve problems well, code review, well coded and well
                         commented.
                     </p>
-                    <p>Graduated in Technician in Electronics - IFSC, pursuing a degree in Computer Science - UFSC and Digital Games - Estácio.
+                    <p>Graduated in Technician in Electronics - IFSC, pursuing a degree in Computer Science - UFSC and
+                        Digital Games - Estácio.
                     </p>
                 </div>
             </div>
@@ -83,17 +80,16 @@
             <!-- DIV Graphics-->
             <div class=" wow slideInUp conteudo-graficos col-lg-5 offset-lg-1">
                 <!-- title Graphics-->
-                <div class=" col-md-10 offset-md-1 col-10 offset-1 text-center principal-skills">
-                    <h2>Programming Languages</h2>
-                </div>
                 <!--  Graphics-->
-                <div class="graficos col-lg-12">
+                <div class="graficos col-lg-12 text-center">
+                    <h2 class="d-inline-block px-2">Programming Languages</h2>
                     <!--Graphics-->
-                    <div class='row'>
-                        <div class='title-graphic'>HTML
+                    <div class='container'>
+                        <div class='title-graphic text-left'>
+                            HTML5
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay='1s' data-wow-duration='2s' data-wow-offset='300'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
                                  role='progressbar' style='width:100%;' aria-valuenow='100'
@@ -101,23 +97,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class='title-graphic'>PHP
+                    <div class='container'>
+                        <div class='title-graphic text-left'>PHP 5.5 / 7
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay='1s' data-wow-duration='2s' data-wow-offset='250'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
-                                 role='progressbar' style='width:92%;' aria-valuenow='92'
-                                 aria-valuemin='0' aria-valuemax='100'>92%
+                                 role='progressbar' style='width:100%;' aria-valuenow='100'
+                                 aria-valuemin='0' aria-valuemax='100'>100%
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class='title-graphic'>CSS
+                    <div class='container'>
+                        <div class='title-graphic text-left'>CSS3
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay='1s' data-wow-duration='2s' data-wow-offset='150'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
                                  role='progressbar' style='width:90%;' aria-valuenow='90'
@@ -125,23 +121,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class='title-graphic'>JavaScript
+                    <div class='container'>
+                        <div class='title-graphic text-left'>JavaScript
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay='1s' data-wow-duration='2s' data-wow-offset='100'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
-                                 role='progressbar' style='width:60%;' aria-valuenow='100'
+                                 role='progressbar' style='width:60%;' aria-valuenow='60'
                                  aria-valuemin='0' aria-valuemax='60'>60%
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class='title-graphic'>Python
+                    <div class='container'>
+                        <div class='title-graphic text-left'>Python 3
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay='1s' data-wow-duration='2s' data-wow-offset='0'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
                                  role='progressbar' style='width:80%;' aria-valuenow='80'
@@ -158,17 +154,17 @@
     <!--    TERCEIRA TELA-->
     <div class="container-fluid" style="margin-top: 50px; padding: 10px">
         <div class="row">
-
             <!--            OUTRAS HABILIDADES-->
             <div class="outras-habilidedes col-lg-5">
-                <div class="text-center wow fadeInLeft  col-xl-10 offset-xl-1 col-10 offset-1"><h2>Other Skills</h2>
+                <div class="text-center wow fadeInLeft container">
+                    <h2 class="d-inline-block px-2">Other Skills</h2>
                 </div>
-                <div class="col-lg-12  wow fadeInUp ">
-                    <div class='row'>
+                <div class="container wow fadeInUp ">
+                    <div class='container'>
                         <div class='title-graphic'>C
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='500'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
                                  role='progressbar' style='width:60%;' aria-valuenow='60'
@@ -176,11 +172,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
+                    <div class='container'>
                         <div class='title-graphic'>C++
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='400'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
                                  role='progressbar' style='width:50%;' aria-valuenow='50'
@@ -188,47 +184,47 @@
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
+                    <div class='container'>
                         <div class='title-graphic'>Java
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='350'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
-                                 role='progressbar' style='width:5%;' aria-valuenow='5'
-                                 aria-valuemin='0' aria-valuemax='100'>5%
+                                 role='progressbar' style='width:15%;' aria-valuenow='15'
+                                 aria-valuemin='0' aria-valuemax='100'>15%
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
+                    <div class='container'>
                         <div class='title-graphic'>MySQL
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='250'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
-                                 role='progressbar' style='width:50%;' aria-valuenow='50'
-                                 aria-valuemin='0' aria-valuemax='100'>50%
+                                 role='progressbar' style='width:90%;' aria-valuenow='90'
+                                 aria-valuemin='0' aria-valuemax='100'>90%
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
+                    <div class='container'>
                         <div class='title-graphic'>SQLite
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='200'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
-                                 role='progressbar' style='width:40%;' aria-valuenow='40'
-                                 aria-valuemin='0' aria-valuemax='100'>40%
+                                 role='progressbar' style='width:90%;' aria-valuenow='90'
+                                 aria-valuemin='0' aria-valuemax='100'>90%
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
+                    <div class='container'>
                         <div class='title-graphic'>C
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='100'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
                                  role='progressbar' style='width:60%;' aria-valuenow='60'
@@ -236,11 +232,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
+                    <div class='container'>
                         <div class='title-graphic'>Android
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='100'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
                                  role='progressbar' style='width:10%;' aria-valuenow='10'
@@ -248,32 +244,34 @@
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class='title-graphic'>JQuery
+                    <div class='container'>
+                        <div class='title-graphic'>React
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='0'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
-                                 role='progressbar' style='width:40%;' aria-valuenow='40'
-                                 aria-valuemin='0' aria-valuemax='100'>40%
+                                 role='progressbar' style='width:20%;' aria-valuenow='20'
+                                 aria-valuemin='0' aria-valuemax='100'>20%
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <!--            FERRAMENTAS-->
             <div class=" ferramentas col-lg-5 offset-lg-1 ">
 
-                <div class="text-center wow fadeInRight col-xl-5 offset-xl-3 col-6 offset-3 ferramentas"><h2>Tools</h2>
+                <div class="text-center wow fadeInRight container ferramentas">
+                    <h2 class="d-inline-block px-4">Tools</h2>
                 </div>
 
-                <div class="col-lg-12  wow fadeInUp data-wow-offset ">
-                    <div class='row'>
-                        <div class='title-graphic'>GitHub
+                <div class="container  wow fadeInUp data-wow-offset ">
+                    <div class='container'>
+                        <div class='title-graphic'>Git
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='500'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
                                  role='progressbar' style='width:70%;' aria-valuenow='70'
@@ -281,59 +279,59 @@
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class='title-graphic'>AWS S3
+                    <div class='container'>
+                        <div class='title-graphic'>AWS S3 / EC2
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='450'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
-                                 role='progressbar' style='width:30%;' aria-valuenow='30'
-                                 aria-valuemin='0' aria-valuemax='100'>30%
+                                 role='progressbar' style='width:50%;' aria-valuenow='50'
+                                 aria-valuemin='0' aria-valuemax='100'>50%
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
+                    <div class='container'>
                         <div class='title-graphic'>Unity
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='350'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
-                                 role='progressbar' style='width:40%;' aria-valuenow='40'
-                                 aria-valuemin='0' aria-valuemax='100'>40%
+                                 role='progressbar' style='width:20%;' aria-valuenow='20'
+                                 aria-valuemin='0' aria-valuemax='100'>20%
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
+                    <div class='container'>
                         <div class='title-graphic'>Bootstrap
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='300'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
-                                 role='progressbar' style='width:70%;' aria-valuenow='70'
-                                 aria-valuemin='0' aria-valuemax='100'>70%
+                                 role='progressbar' style='width:85%;' aria-valuenow='85'
+                                 aria-valuemin='0' aria-valuemax='100'>85%
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
+                    <div class='container'>
                         <div class='title-graphic'>DataTables
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='200'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
-                                 role='progressbar' style='width:60%;' aria-valuenow='60'
-                                 aria-valuemin='0' aria-valuemax='100'>60%
+                                 role='progressbar' style='width:90%;' aria-valuenow='90'
+                                 aria-valuemin='0' aria-valuemax='100'>90%
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class='title-graphic'>Adobe Premiere
+                    <div class='container'>
+                        <div class='title-graphic'>Jira / Trello
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='100'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
                                  role='progressbar' style='width:90%;' aria-valuenow='90'
@@ -341,12 +339,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class='row'>
-                        <div class='title-graphic'>Photoshop
+                    <div class='container'>
+                        <div class='title-graphic'>Jenkins
                         </div>
                         <div class='progress  col-xl-12'
-                             style='height: 30px; padding:0px !important; border: 1px solid white;'>
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
                             <div data-wow-delay="0.5s" data-wow-offset='100' data-wow-duration='2s'
+                                 class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
+                                 role='progressbar' style='width:60%;' aria-valuenow='60'
+                                 aria-valuemin='0' aria-valuemax='100'>60%
+                            </div>
+                        </div>
+                    </div>
+                    <div class='container'>
+                        <div class='title-graphic'>JQuery
+                        </div>
+                        <div class='progress  col-xl-12'
+                             style='height: 30px; padding:0 !important; border: 1px solid white;'>
+                            <div data-wow-delay="0.5s" data-wow-duration='2s' data-wow-offset='0'
                                  class=' progress-bar wow slideInLeft progress-bar-striped  bg-info'
                                  role='progressbar' style='width:70%;' aria-valuenow='70'
                                  aria-valuemin='0' aria-valuemax='100'>70%
@@ -355,13 +365,12 @@
                     </div>
                 </div>
 
-                </div>
             </div>
         </div>
     </div>
+</div>
 
-
-</div><!-- DIV CONTEUDO-->
+<!-- DIV CONTEUDO-->
 
 <!--    TELA DE PROJETOS-->
 <div class="project" style="padding-bottom: 20px">
@@ -393,26 +402,31 @@
             <!-- Images-->
             <div class="mb-3 pics imgs all 2" type="button" data-toggle="modal" data-target="#modal1">
                 <figure class="figure">
-                    <img class="img-fluid figure-img rounded " src="img/geld.PNG" id="img-1" alt="Card image cap">
-                    <figcaption class="figure-caption text-right">Geld - PHP/MySQL/HTML5/CSS/JS</figcaption>
+                    <img class="img-fluid figure-img rounded " src="img/geld.jpg" id="img-1" alt="Card image cap">
+                    <figcaption class="figure-caption text-right" style="color: white">Geld - PHP/MySQL/HTML5/CSS/JS
+                    </figcaption>
                 </figure>
             </div>
             <div class="mb-3 pics imgs all 1" type="button" data-toggle="modal" data-target="#modal2">
                 <figure class="figure">
                     <img src="img/github.jpg" id="img-2" class="figure-img img-fluid rounded" alt="Card image cap">
-                    <figcaption class="figure-caption text-right">Virtual Assistant - Python3/SQLite</figcaption>
+                    <figcaption class="figure-caption text-right" style="color: white">Virtual Assistant -
+                        Python3/SQLite
+                    </figcaption>
                 </figure>
             </div>
             <div class="mb-3 pics imgs all 1" type="button" data-toggle="modal" data-target="#modal3">
                 <figure class="figure">
                     <img src="img/gameC.jpg" id="img-3" class="figure-img img-fluid rounded" alt="Card image cap">
-                    <figcaption class="figure-caption text-right">Sticker Figth Game - C++</figcaption>
+                    <figcaption class="figure-caption text-right" style="color: white">Sticker Figth Game - C++
+                    </figcaption>
                 </figure>
             </div>
             <div class="mb-3 pics imgs all 1" type="button" data-toggle="modal" data-target="#modal4">
                 <figure class="figure">
-                    <img src="img/gamePython.png" id="img-4" class="figure-img img-fluid rounded" alt="Card image cap">
-                    <figcaption class="figure-caption text-right">Battle of the Spirits - Python3</figcaption>
+                    <img src="img/gamePython.jpg" id="img-4" class="figure-img img-fluid rounded" alt="Card image cap">
+                    <figcaption class="figure-caption text-right" style="color: white">Battle of the Spirits - Python3
+                    </figcaption>
                 </figure>
             </div>
 
@@ -439,20 +453,23 @@
                         Other technologies: AJAX, JSON<br>
                         My contribution: Mar 2019 - Currently
                     </div>
-                    <div style="border-top: 1px solid #dee2e6; margin-top:10px;padding: 10px 0px" >
+                    <div style="border-top: 1px solid #dee2e6; margin-top:10px;padding: 10px 0">
                         Resume:<br>
-                        A platform of solutions in tests, inspections, analyzes, certification and traceability for the agrifood chain.<br>
-                        I actively participate in the tasks of the IT team.<br>
+                        A platform for testing, inspections, analysis, certification and traceability of fresh products. <br>
+                        I actively participate in the tasks of the IT team. <br>
+                        In this system I have already created countless CRUDs, data reports, page to attach files and upload to AWS, send automatic email, search filters, read data coming from spreadsheet ...
 
                     </div>
 
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary"><a target="_blank"
                                                                          style="color: white; text-decoration: none"
-                                                                         href="http://app.geneslab.com.br/login.php">Web Site</a></button>
+                                                                         href="http://app.geneslab.com.br/login.php">Web
+                                Site</a></button>
                         <button type="button" class="btn btn-primary"><a target="_blank"
                                                                          style="color: white; text-decoration: none"
-                                                                         href="http://genesisgroup.publishouse.tecnologia.ws/">Company Web Site</a></button>
+                                                                         href="http://genesisgroup.publishouse.tecnologia.ws/">Company
+                                Web Site</a></button>
                     </div>
                 </div>
             </div>
@@ -472,11 +489,11 @@
                     <div>
                         My own project<br>
                         Languages: Python3,SQLite<br>
-                        Lib: speech_recognition, cv2, requests, bs4, pyttsx3, htaccess</br>
+                        Lib: speech_recognition, cv2, requests, bs4, pyttsx3, htaccess
                         Other technologies: JSON<br>
                         Creation date: 2018
                     </div>
-                    <div style="border-top: 1px solid #dee2e6; margin-top:10px;padding: 10px 0px" >
+                    <div style="border-top: 1px solid #dee2e6; margin-top:10px;padding: 10px 0">
                         Resume:<br>
                         Virtual assistant with facial and voice recognition. Responds with audio
 
@@ -485,7 +502,8 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary"><a target="_blank"
                                                                          style="color: white; text-decoration: none"
-                                                                         href="https://github.com/bobyzoo/ProjetoX">Web Site</a></button>
+                                                                         href="https://github.com/bobyzoo/ProjetoX">Web
+                                Site</a></button>
                     </div>
                 </div>
             </div>
@@ -511,7 +529,8 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary"><a target="_blank"
                                                                          style="color: white; text-decoration: none"
-                                                                         href="https://github.com/bobyzoo/game">Web Site</a></button>
+                                                                         href="https://github.com/bobyzoo/game">Web
+                                Site</a></button>
                     </div>
                 </div>
             </div>
@@ -537,7 +556,8 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary"><a target="_blank"
                                                                          style="color: white; text-decoration: none"
-                                                                         href="https://github.com/bobyzoo/BattleOfTheSpirits">Web Site</a></button>
+                                                                         href="https://github.com/bobyzoo/BattleOfTheSpirits">Web
+                                Site</a></button>
                     </div>
                 </div>
             </div>
@@ -567,21 +587,22 @@
     </div>
 </footer>
 </body>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
+<script src="lib/js/jquery-3.4.1.min.js"></script>
+<script src="lib/js/wow.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-<script src="lib/js/jquery-3.4.1.min.js"></script>
-<script src="lib/js/wow.min.js"></script>
 <script>
 
     $('*').filter(function () {
-        return $(this).css('z-index') == 9999999;
+        return $(this).css('z-index') === 9999999;
     }).each(function () {
         $(this).remove();
     });
