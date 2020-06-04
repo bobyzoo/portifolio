@@ -3,22 +3,16 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 
-.imagem {
-    max-width: 200px;
-    max-height: 150px;
-    width: auto;
-    height: auto;
-}
 
 #interface {
-    /*background-color: #606060;*/
     background-image: url("../../img/background1.gif");
+    background-position: center top;
     background-repeat: no-repeat;
-    background-size: 315%;
+    background-size: cover;
+    background-attachment: fixed;
     background-color: #606060;
-    height: 100%;
-
 }
+
 
 h1 {
     font-family: "Tahoma";
@@ -35,7 +29,6 @@ h2 {
 
 p {
     font-family: Raleway;
-    font-size: 15pt;
 }
 
 .imagem-pc {
@@ -43,22 +36,26 @@ p {
     margin-top: 15%;
     color: #606060
 }
-.about,.conteudo-graficos{
+
+.about, .conteudo-graficos {
     margin-top: 25px;
 }
-.ferramentas{
+
+.ferramentas {
     margin-top: 50px
 }
+
 /*COL*/
 @media only screen and(max-width: 575px) {
     h1 {
         font-size: 50px;
     }
 
-    .btn-muda{
+    .btn-muda {
         font-size: 12px;
     }
-    .footer-create{
+
+    .footer-create {
         font-size: 12px;
     }
 }
@@ -86,7 +83,8 @@ p {
         text-indent: 1em;
 
     }
-    .btn{
+
+    .btn {
         font-size: 12px;
     }
 
@@ -116,7 +114,8 @@ p {
         text-indent: 1em;
 
     }
-    .footer-create{
+
+    .footer-create {
         font-size: 20px;
     }
 }
@@ -145,16 +144,19 @@ p {
 
     }
 
-    .graficos{
+    .graficos {
         margin-top: 50px;
     }
-    .principal-skills{
+
+    .principal-skills {
         margin-top: 100px;
     }
-    .ferramentas{
+
+    .ferramentas {
         margin-top: 0px;
     }
-    .footer-create{
+
+    .footer-create {
         font-size: 30px;
     }
 
@@ -185,13 +187,15 @@ p {
 
     }
 
-    .graficos{
+    .graficos {
         margin-top: 50px;
     }
-    .title-graphic{
+
+    .title-graphic {
         font-size: 30px;
     }
-    .principal-skills{
+
+    .principal-skills {
         margin-top: 100px;
     }
 }
@@ -230,7 +234,7 @@ p {
 }
 
 .imagem-v {
-    position: absolute;
+    position: relative;
     left: 0;
     bottom: 0;
     padding: 0px;
@@ -241,7 +245,6 @@ p {
 }
 
 
-
 .title-init {
     color: #606060;
 }
@@ -250,14 +253,13 @@ p {
     margin-bottom: 15px;
     border-bottom: 5px solid #ffffff !important;
 }
-.project{
+
+.project {
     background-color: #4e4e4e;
     margin-top: -1px;
 }
-.outras-habilidedes{
-    padding-left: 45px;
-}
-.imgs{
+
+.imgs {
     -webkit-appearance: none !important;
 }
 
@@ -267,15 +269,19 @@ p {
     column-count: 3;
     -webkit-column-width: 33%;
     -moz-column-width: 33%;
-    column-width: 33%; }
+    column-width: 33%;
+}
 
 .gallery .pics {
     -webkit-transition: all 350ms ease;
-    transition: all 350ms ease; }
+    transition: all 350ms ease;
+}
+
 .gallery .animation {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
-    transform: scale(1); }
+    transform: scale(1);
+}
 
 @media (max-width: 450px) {
     .gallery {
@@ -292,33 +298,36 @@ p {
     .btn.filter {
         padding-left: 1.1rem;
         padding-right: 1.1rem;
-        
+
     }
 }
 
 @media only screen and (min-width: 300px) {
-    .btn.filter{
-           font-size: 12px;
-       }
+    .btn.filter {
+        font-size: 12px;
+    }
 }
+
 @media only screen and (min-width: 400px) {
-    .btn.filter{
+    .btn.filter {
         font-size: 16px;
     }
-}@media only screen and (min-width: 1000px) {
-    .btn.filter{
+}
+
+@media only screen and (min-width: 1000px) {
+    .btn.filter {
         font-size: 18px;
     }
 }
 
-#footer{
+#footer {
     background-color: #3c3c3c;
     height: 15%;
     margin-top: -1px;
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #F5F5F5;
 }
 
@@ -329,13 +338,19 @@ p {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     background-color: #555;
 }
 
 
-.footer{
-    text-decoration: none;color: #d0d0d0;font-size: 30px
-}.footer a{
-    text-decoration: none;color: #d0d0d0;font-size: 30px
+.footer {
+    text-decoration: none;
+    color: #d0d0d0;
+    font-size: 30px
+}
+
+.footer a {
+    text-decoration: none;
+    color: #d0d0d0;
+    font-size: 30px
 }
